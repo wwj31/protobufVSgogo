@@ -1,0 +1,1 @@
+./protoc --plugin protoc-gen-go=./protoc-gen-go -I=./ --go_out=./ ./pt/ptgo.proto

@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ptfile;
+option  go_package = "/ptfile";
+
+message ProtoMsg
+{
+    string str1 = 1;
+    string str2 = 2;
+    int64  i3   = 3;
+    int64  i4   = 4;
+}
